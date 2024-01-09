@@ -1,0 +1,41 @@
+{
+  "name": "prog-organizer",
+  "version": "1.0.0",
+  "description": "ProgOrganizer is a powerful tool designed to efficiently organize and categorize development projects based on their programming languages. Streamline your workflow by easily sorting projects written in Java, JS/TS, Node.JS, Lua, C, C#, C++, and more. Simplify your development environment with ProgOrganizer's intuitive project management capabilities.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "settings": "node src/settings-cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skogrine/ProgOrganizer.git"
+  },
+  "keywords": [
+    "organizer",
+    "programmation",
+    "code",
+    "java",
+    "lua",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Skogrine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Skogrine/ProgOrganizer/issues"
+  },
+  "homepage": "https://github.com/Skogrine/ProgOrganizer#readme",
+  "dependencies": {
+    "@ptkdev/logger": "^1.8.0",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "nodemon": "^3.0.2"
+  }
+}
