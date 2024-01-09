@@ -27,7 +27,7 @@ ProgOrganizer is a versatile tool designed to streamline the organization and ca
 
 3. **Run ProgOrganizer:**
     ```bash
-    npm start
+    node src/index.js --path <Your-path>
 
 ## Configuration
 
