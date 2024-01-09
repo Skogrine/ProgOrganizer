@@ -14,12 +14,16 @@ ProgOrganizer is a versatile tool designed to streamline the organization and ca
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/prog-organizer.git
-   cd prog-organizer
+   git clone https://github.com/Skogrine/ProgOrganizer.git
+   cd ProgOrganizer
 
 2. **Install Dependencies:**
     ```bash
     npm install
+
+3. **Create settings:**
+    ```bash
+    npm run settings
 
 3. **Run ProgOrganizer:**
     ```bash
